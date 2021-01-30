@@ -1,0 +1,25 @@
+{
+  "name": "rule-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js",
+    "server": "nodemon api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "joi": "^13.0.2",
+    "lodash": "^4.17.4",
+    "morgan": "^1.9.0",
+    "nodemon": "^2.0.7"
+  },
+  "engines":{
+    "node": "15.3.0"
+  }
+}

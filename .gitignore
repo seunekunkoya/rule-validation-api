@@ -1,0 +1,3 @@
+node_modules
+server/validator/test.*
+server/helper/helper.func.js
